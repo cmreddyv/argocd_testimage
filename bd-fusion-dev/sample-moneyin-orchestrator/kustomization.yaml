@@ -1,0 +1,10 @@
+namespace: dev
+bases:
+- ../../common/sample-moneyin-orchestrator
+resources:
+- ingress.yaml
+- certificate.yaml
+
+imageTags:
+- name: docker.io/chandra37933/assignment
+  newTag: v15
