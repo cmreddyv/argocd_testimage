@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: myalias=docker.io/chandra37933/assignment           #Write repository name
+    argocd-image-updater.argoproj.io/image-list: myalias=574155439588.dkr.ecr.ap-south-1.amazonaws.com/testimage          #Write repository name
     argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds            #Setting git credential
     argocd-image-updater.argoproj.io/git-branch: main                                          #git branch where your workflow exists
     argocd-image-updater.argoproj.io/myalias.force-update: "true"
