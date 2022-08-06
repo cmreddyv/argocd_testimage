@@ -6,7 +6,8 @@ metadata:
   annotations:
     argocd-image-updater.argoproj.io/image-list: myalias=574155439588.dkr.ecr.ap-south-1.amazonaws.com/testimage          #Write repository name
     argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
-    
+    finalizers:
+      - resources-finalizer.argocd.argoproj.io
     argocd-image-updater.argoproj.io/git-branch: main                                          #git branch where your workflow exists
     argocd-image-updater.argoproj.io/myalias.force-update: "true"
 spec:
