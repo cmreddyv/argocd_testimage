@@ -15,7 +15,7 @@ spec:
     targetRevision: HEAD
     path: dev
   destination: 
-    server: https://kubernetes.default.svc
+    server: https://chinni-dns-c4c5e411.hcp.eastus.azmk8s.io:443
     namespace: dev
 
   syncPolicy:
