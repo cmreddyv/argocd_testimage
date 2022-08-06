@@ -17,3 +17,5 @@ spec:
         image: 574155439588.dkr.ecr.ap-south-1.amazonaws.com/testimage:v1
         ports:
         - containerPort: 80
+      imagePullSecrets:
+          - name: regcred
