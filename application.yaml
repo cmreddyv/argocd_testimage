@@ -9,7 +9,7 @@ metadata:
     argocd-image-updater.argoproj.io/git-branch: main                                          #git branch where your workflow exists
     argocd-image-updater.argoproj.io/myalias.force-update: "true"
 spec:
-  project: test-
+  project: default
   source:
     repoURL: https://github.com/cmreddyv/argocd_testimage.git
     targetRevision: HEAD
