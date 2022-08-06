@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - 574155439588.dkr.ecr.ap-south-1.amazonaws.com/testimage:v2
+  - 574155439588.dkr.ecr.ap-south-1.amazonaws.com/testimage:v3
