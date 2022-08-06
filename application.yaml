@@ -16,10 +16,6 @@ spec:
     repoURL: https://github.com/cmreddyv/argocd_testimage.git
     targetRevision: HEAD
     path: dev
-    helm:
-      parameters:
-      - name: image
-        value: v1
   destination: 
     server: https://chinni-dns-c4c5e411.hcp.eastus.azmk8s.io:443
     namespace: dev
