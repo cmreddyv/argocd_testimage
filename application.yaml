@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo-application
+  name: test-chinni-work
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: myalias=574155439588.dkr.ecr.ap-south-1.amazonaws.com/testimage          #Write repository name
