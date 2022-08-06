@@ -1,3 +1,0 @@
-kustomize:
-  images:
-  - docker.io/chandra37933/assignment:v17
