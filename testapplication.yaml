@@ -8,7 +8,7 @@ spec:
  source:
    repoURL: https://github.com/cmreddyv/argocd_testimage.git
    targetRevision: HEAD
-   path: bd-fusion-dev/sample-moneyin-orchestrator
+   path: test
    plugin:
      name: testkube
  destination:
